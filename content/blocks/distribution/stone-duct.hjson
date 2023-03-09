@@ -1,0 +1,14 @@
+    type: Duct
+    category: distribution
+
+    speed: 0.05
+    displayedSpeed: 5
+    scaledHealth: 20
+
+    research: {
+        core-fly
+    }
+
+    requirements: [
+        stone/3
+    ]

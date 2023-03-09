@@ -1,0 +1,9 @@
+name: "Lava Stone"
+color: "#c92200"
+hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+]
+research:{
+parent: basalt-stone
+}

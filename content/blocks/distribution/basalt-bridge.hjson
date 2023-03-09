@@ -1,0 +1,13 @@
+    type: ItemBridge
+    category: distribution
+
+    range: 6
+
+    research: {
+        stone-duct
+    }
+
+    requirements: [
+        stone/2
+        basalt-stone/2
+    ]

@@ -1,0 +1,9 @@
+name: "Basalt Stone"
+color: "#595959"
+hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+]
+research:{
+parent: stone
+}

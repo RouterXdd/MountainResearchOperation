@@ -1,0 +1,59 @@
+
+    useEngineElevation : false
+    shadowElevation : 0.16
+    engineOffset : 7
+    itemCapacity : 0
+    description : The flame hover unit
+    rotateSpeed : 5.1
+    engineSize : 2
+    hovering : true
+    hitSize : 11
+    health : 136
+    speed : 2.15
+    accel : 0.1
+    range : 240
+    armor : 3
+    name : Spray
+    type : hover
+    drag : 0.06
+    
+    abilities : [
+        {
+        teamColor : true
+        type : MoveEffectAbility
+        y : -5
+        x : 3
+    }
+    {
+        teamColor : true
+        type : MoveEffectAbility
+        y : -5
+        x : -3
+    }
+    ]
+    
+    research : {
+    }
+    
+    weapons : [{
+        
+        baseRotation : 0
+        shootCone : 360
+        mirror : true
+        reload : 8
+        name : spray-weapon
+        top : true
+        y : -3
+        x : 3
+        inaccuracy: 6
+        
+        bullet : {
+            lifetime : 60
+            damage : 4
+            height : 9
+            speed : 4
+            width : 9
+            liquid: slag
+            type : LiquidBulletType
+        }
+    }]

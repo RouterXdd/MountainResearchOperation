@@ -1,0 +1,67 @@
+mesh: {
+  type: NoiseMesh
+  planet: flen
+  seed: 78
+  divisions: 6
+  color1: 595959
+  color2: c92200
+  colorScale: 2
+  radius: 0.76
+  octaves: 4
+  persistence: 1
+  scale: 1
+  mag: 1.3
+}
+sectorSize: 3
+generator: {
+
+}
+orbitSpacing: 10
+orbitRadius: 30
+raradius: 0.8
+minZoom: 1
+maxZoom: 4
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.35
+accessible: true
+updateLighting: true
+sectorSeed: 17
+startSector: 6
+bloom: false
+visible: true
+atmosphereColor: c46000
+iconColor: c92200
+hasAtmosphere: true
+allowSectorInvasion: false
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowLaunchSchematics: true
+allowWaves: true
+defaultCore: core-fly
+parent: sun
+alwaysUnlocked: true
+hiddenItems: [
+        "copper",
+        "lead",
+        "scrap",
+        "graphite",
+        "coal",
+        "titanium",
+        "thorium",
+        "silicon",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "sand",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+]

@@ -1,0 +1,15 @@
+name: Cliff Bore
+type: BeamDrill
+health: 400
+size: 1
+category: production
+tier: 2
+range: 4
+drillTime: 180
+itemCapacity: 10
+research: {
+parent: core-fly
+}
+requirements: [
+  stone/40
+]

@@ -1,0 +1,19 @@
+name: "Core: Fly"
+description: "The first core of Flen"
+type: CoreBlock
+isFirstTier: true
+health: 3000
+size: 3
+itemCapacity: 3400
+unitCapModifier: 8
+unitType: alpha
+requirements: [
+ stone/1800
+]
+category: effect
+research: {
+    root: true
+    name: "flen"
+    requiresUnlock: false
+    planet: flen
+}

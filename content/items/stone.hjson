@@ -1,0 +1,9 @@
+name: "Stone"
+color: "#707070"
+hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+]
+research:{
+parent: core-fly
+}
