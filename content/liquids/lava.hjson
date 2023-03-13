@@ -1,0 +1,9 @@
+    name: Lava
+    color: c92200
+    effect: melting
+
+    heatCapacity: 0
+    boilPoint: 0.6
+    temperature: 3
+
+    research: core-fly

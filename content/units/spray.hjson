@@ -8,7 +8,7 @@
     engineSize : 2
     hovering : true
     hitSize : 11
-    health : 136
+    health : 184
     speed : 2.15
     accel : 0.1
     range : 240
@@ -40,20 +40,22 @@
         baseRotation : 0
         shootCone : 360
         mirror : true
-        reload : 8
+        reload : 3
         name : spray-weapon
         top : true
-        y : -3
-        x : 3
+        y : -1.5
+        x : 0
         inaccuracy: 6
         
         bullet : {
             lifetime : 60
             damage : 4
-            height : 9
+            height : 4
             speed : 4
-            width : 9
-            liquid: slag
+            width : 4
+            status: melting
+            statusDuration: 80
+            liquid: mro-lava
             type : LiquidBulletType
         }
     }]

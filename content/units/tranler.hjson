@@ -1,0 +1,26 @@
+    useEngineElevation : false
+    shadowElevation : 0.2
+    engineOffset : 4
+    itemCapacity : 0
+    description : The unknown type of unit on Flen
+    details: He is your guiding light in this world
+    controller: BuilderAI
+    playerControllable: false
+    flying: true
+    rotateSpeed : 5.1
+    engineSize : 2.3
+    hitSize : 9
+    health : 136
+    speed : 2.6
+    accel : 0.1
+    range : 60
+    armor : 100
+    name : Tranler
+    type : flying
+    drag : 0.04
+    
+    
+    research : {
+    }
+    
+    weapons : []

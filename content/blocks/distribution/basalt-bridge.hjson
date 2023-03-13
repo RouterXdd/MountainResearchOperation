@@ -3,9 +3,7 @@
 
     range: 6
 
-    research: {
-        stone-duct
-    }
+    research: stone-duct
 
     requirements: [
         stone/2

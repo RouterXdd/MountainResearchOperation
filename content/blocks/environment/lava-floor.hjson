@@ -1,0 +1,11 @@
+    type: Floor
+    liquidDrop: mro-lava
+    status: melting
+    statusDuration: 130
+    isLiquid: true
+    variants: 0
+    drownTime: 160
+    caсheLayer: oil
+    supportsOverlay: true
+    speedMultiplier: 0.2
+    albedo: 0.7

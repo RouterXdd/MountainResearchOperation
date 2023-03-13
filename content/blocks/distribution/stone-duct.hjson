@@ -5,9 +5,7 @@
     displayedSpeed: 5
     scaledHealth: 20
 
-    research: {
-        core-fly
-    }
+    research: core-fly
 
     requirements: [
         stone/3

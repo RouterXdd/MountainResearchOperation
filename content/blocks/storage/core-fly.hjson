@@ -1,12 +1,13 @@
 name: "Core: Fly"
 description: "The first core of Flen"
+alwaysUnlocked: true
 type: CoreBlock
 isFirstTier: true
 health: 3000
 size: 3
 itemCapacity: 3400
 unitCapModifier: 8
-unitType: alpha
+unitType: awake
 requirements: [
  stone/1800
 ]

@@ -14,7 +14,7 @@ mesh: {
 }
 sectorSize: 3
 generator: {
-
+ defaultLoadout: "basicFly"
 }
 orbitSpacing: 10
 orbitRadius: 30

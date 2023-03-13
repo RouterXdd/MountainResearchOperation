@@ -1,0 +1,6 @@
+name: Wrecked drone
+health: 600
+type: StorageBlock
+itemCapacity: 160
+size: 1
+buildVisibility: debugOnly

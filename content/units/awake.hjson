@@ -1,0 +1,49 @@
+    type: flying
+    controller: BuilderAI
+
+    health: 300
+    armor: 2
+    speed: 3.8
+    drag: 1.25
+    flying: true
+    range: 80
+    omniMovement: true
+    hitSize: 13
+    itemCapacity: 50
+
+    buildSpeed: 0.4
+    buildRange: 150
+
+    canAttack: true
+    mineSpeed: 3
+    mineTier: 3
+    mineFloor: false
+    mineWalls: true
+
+    coreUnitDock: true
+    createScorch: false
+
+    weapons: [
+        {
+            name: "weapon-awake"
+            top: false
+            x: 4
+            y: 0
+            shootY: 2
+            reload: 34
+            recoil: 2
+            shootSound: pew
+            shake: 0.25
+            alternate: false
+            mirror: true
+            bullet: {
+                type: MissileBulletType
+                damage: 30
+                buildingDamageMultiplier: 0.01
+                speed: 10
+                lifetime: 8
+                collidesTeam: true
+                healPercent: 2
+            }
+        }
+    ]

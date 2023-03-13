@@ -1,0 +1,6 @@
+sector: 6
+planet: flen
+difficulty: 1
+captureWave: 5
+alwaysUnlocked: true
+research: core-fly

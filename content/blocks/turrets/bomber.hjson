@@ -1,0 +1,48 @@
+    targetGround : true
+    inaccuracy : 2
+    targetAir : true
+    category : turret
+    research : {
+        parent: core-fly
+        requirements : [
+        stone/490
+        basalt-stone/280
+    ]
+        }
+    health : 400
+    reload : 36
+    range : 100
+    type : ItemTurret
+    name : Bomber
+    size : 1
+    
+    requirements : [
+        stone/70
+        basalt-stone/40
+    ]
+    
+    ammoTypes : {
+        stone : {
+            type: BasicBulletType
+            reloadMultiplier : 1
+            ammoMultiplier : 2.5
+            lifetime : 25
+            damage : 16
+            height : 10
+            speed : 4
+            width : 7
+                bulletInterval: 2.5
+                intervalRandomSpread: 30
+                intervalBullets: 4
+                intervalAngle: 180
+                intervalSpread: 200
+                intervalBullet: {
+                    type: MissileBulletType
+                    lifetime : 10
+                    damage : 4
+                    height : 7
+                    speed : 4
+                    width : 4
+                }
+        }
+    }

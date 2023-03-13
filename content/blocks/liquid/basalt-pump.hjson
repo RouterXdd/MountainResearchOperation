@@ -1,0 +1,15 @@
+type: Pump
+name: Basalt Pump
+size: 2
+health: 340
+consumes: {
+}
+pumpAmount: 0.1
+squareSprite: false
+liquidCapacity: 60
+requirements: [
+  stone/160
+  basalt-stone/90
+]
+category: liquid
+research: core-fly

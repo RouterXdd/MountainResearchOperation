@@ -1,0 +1,45 @@
+name: Solidfier
+type: GenericCrafter
+health: 490
+size: 3
+hasItems: true
+hasPower: true
+itemCapacity: 20
+requirements: [
+    stone/260
+    basalt-stone/180
+]
+consumes: {
+  liquid:{
+    liquid: lava 
+    amount: 0.4
+}
+  items: {
+    items: [
+      stone/4
+    ]
+  }
+}
+craftEffect: pulverize
+outputItem: lava-stone/2
+craftTime: 200
+category: crafting
+research: core-fly
+
+drawer: {
+type: DrawMulti
+drawers: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  },
+  {
+  type: DrawFlame
+  drawLiquid: lava
+  suffix: -liquid
+  },
+  {
+  type: DrawDefault
+  }
+  ]
+}
