@@ -1,0 +1,18 @@
+{
+    
+    category : defense
+    research : {
+        parent: core-fly
+        requirements : [
+        stone/300
+        ]
+        }
+    health : 500
+    name : Stone Wall
+    type : Wall
+    size : 1
+    
+    requirements : [
+        stone/6
+    ]
+}

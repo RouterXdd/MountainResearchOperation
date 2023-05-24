@@ -1,0 +1,33 @@
+type: ConsumeGenerator
+name: Green chamber
+health: 80
+size: 1
+hasPower: true
+hasItems: true
+powerProduction: 0.2
+itemDuration: 100
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawWarmupRegion
+    }
+  ]
+}
+consumes: {
+  items: {
+  items: [
+ neodymium/2
+]
+}
+}
+category: power
+research: core-fly
+requirements: [
+    stone/26
+    basalt-stone/18
+    neodymium/10
+]

@@ -27,8 +27,8 @@
         {
             name: "weapon-awake"
             top: false
-            x: 4
-            y: 0
+            x: 4.2
+            y: -0.3
             shootY: 2
             reload: 34
             recoil: 2

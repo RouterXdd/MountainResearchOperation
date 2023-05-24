@@ -4,6 +4,7 @@
     speed: 0.05
     displayedSpeed: 5
     scaledHealth: 20
+    bridgeReplacement: basalt-bridge
 
     research: core-fly
 

@@ -12,6 +12,19 @@ mesh: {
   scale: 1
   mag: 1.3
 }
+cloudMesh: {
+        type: HexSkyMesh
+        planet: flen
+        seed: 3
+        speed: 3
+        radius: 0.10
+        divisions: 5
+        color: c92200
+        octaves: 2
+        persistence: 2
+        scl: 2
+        thresh: 0.45
+        }
 sectorSize: 3
 generator: {
  defaultLoadout: "basicFly"
@@ -39,6 +52,7 @@ clearSectorOnLose: true
 allowLaunchSchematics: true
 allowWaves: true
 defaultCore: core-fly
+landCloudColor: c92200
 parent: sun
 alwaysUnlocked: true
 hiddenItems: [

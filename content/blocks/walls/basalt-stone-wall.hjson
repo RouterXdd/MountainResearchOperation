@@ -1,0 +1,20 @@
+{
+    
+    category : defense
+    research : {
+        parent: defstone-wall
+        requirements : [
+        basalt-stone/800
+        stone/600
+        ]
+        }
+    health : 2200
+    name : Basalt stone Wall
+    type : Wall
+    size : 2
+    
+    requirements : [
+        basalt-stone/6
+        stone/4
+    ]
+}

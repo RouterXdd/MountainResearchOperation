@@ -1,0 +1,30 @@
+{
+  type: Drill
+name: Burn drill
+description: The ground drill of Flen
+size: 2
+update: true
+tier: 3
+rotateSpeed: 2
+hasItems: true
+drillTime: 140
+warmupSpeed: 0.05
+drawRim: false
+drawMineItem: false
+updateEffect: pulverize
+drillEffect: mine
+heatColor: db6d00
+requirements: [
+  stone/55
+  basalt-stone/30
+  lava-stone/22
+]
+category: production
+research: {
+  parent: core-fly
+  objectives : [{
+            preset : lava-canyon
+            type : OnSector
+        }]
+  }
+}

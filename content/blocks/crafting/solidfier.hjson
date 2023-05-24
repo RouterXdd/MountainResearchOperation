@@ -34,7 +34,7 @@ drawers: [
   suffix: -bottom
   },
   {
-  type: DrawFlame
+  type: DrawLiquidTile
   drawLiquid: lava
   suffix: -liquid
   },

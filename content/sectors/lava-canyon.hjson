@@ -1,0 +1,12 @@
+sector: 32
+planet: flen
+difficulty: 3
+captureWave: 20
+research : {
+        parent : crash-zone
+        objectives : [{
+            preset : crash-zone
+            type : SectorComplete
+        }]
+    }
+research: core-fly

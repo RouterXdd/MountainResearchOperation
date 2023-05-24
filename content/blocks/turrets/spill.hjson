@@ -1,0 +1,51 @@
+targetGround : true
+    inaccuracy : 0
+    targetAir : true
+    category : turret
+    research : {
+        parent: bomber
+        requirements : [
+        basalt-stone/500
+        lava-stone/240
+    ]
+        }
+    health : 700
+    reload : 80
+    range : 150
+    type : ItemTurret
+    name : Spill
+    size : 2
+    
+    requirements : [
+        basalt-stone/80
+        lava-stone/30
+    ]
+    
+    ammoTypes : {
+        lava-stone : {
+            type: BasicBulletType
+            reloadMultiplier : 1
+            ammoMultiplier : 1.8
+            lifetime : 50
+            damage : 20
+            height : 13
+            speed : 3
+            width : 9
+                bulletInterval: 4
+                intervalRandomSpread: 360
+                intervalBullets: 3
+                intervalAngle: 360
+                intervalSpread: 360
+                intervalBullet: {
+                    lifetime : 60
+            damage : 8
+            height : 6
+            speed : 3
+            width : 6
+            status: melting
+            statusDuration: 100
+            liquid: mro-lava
+            type : LiquidBulletType
+                }
+        }
+    }
