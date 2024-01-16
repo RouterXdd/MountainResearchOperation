@@ -5,8 +5,9 @@ size: 1
 category: production
 tier: 2
 range: 4
-drillTime: 180
+drillTime: 72
 itemCapacity: 10
+optionalBoostIntensity: 1
 research: {
 parent: core-fly
 }

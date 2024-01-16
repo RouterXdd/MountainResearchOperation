@@ -37,7 +37,7 @@ targetGround : true
                 intervalAngle: 360
                 intervalSpread: 360
                 intervalBullet: {
-                    lifetime : 60
+                    lifetime : 30
             damage : 8
             height : 6
             speed : 3

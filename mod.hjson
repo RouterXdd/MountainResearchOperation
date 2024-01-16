@@ -1,7 +1,7 @@
 displayName: Mountain Research Operation
-description: Idk
+description: Research the planet, filled with mountains and lava rivers
 name: mro
 version: 1.0
 author: RouterXdd
-minGameVersion: 140
+minGameVersion: 146
 dependencies: []

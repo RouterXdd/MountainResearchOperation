@@ -27,7 +27,7 @@ cloudMesh: {
         }
 sectorSize: 3
 generator: {
- defaultLoadout: "basicFly"
+  defaultLoadout: "basicFly"
 }
 orbitSpacing: 10
 orbitRadius: 30
