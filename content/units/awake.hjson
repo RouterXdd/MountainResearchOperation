@@ -7,14 +7,13 @@
     drag: 1.25
     flying: true
     range: 80
-    omniMovement: true
+    lowAltitude: true
     hitSize: 13
     itemCapacity: 50
 
     buildSpeed: 0.4
     buildRange: 150
 
-    canAttack: true
     mineSpeed: 3
     mineTier: 3
     mineFloor: false
@@ -22,6 +21,7 @@
 
     coreUnitDock: true
     createScorch: false
+    outlineColor: 2b1311
 
     weapons: [
         {

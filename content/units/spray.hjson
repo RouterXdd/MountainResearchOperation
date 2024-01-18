@@ -16,6 +16,7 @@
     name : Spray
     type : hover
     drag : 0.06
+    outlineColor: 2b1311
     
     abilities : [
         {

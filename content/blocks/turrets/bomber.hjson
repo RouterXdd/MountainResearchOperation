@@ -14,6 +14,11 @@
     range : 100
     type : ItemTurret
     name : Bomber
+    outlineColor: 2b1311
+    drawer: {
+    type: DrawTurret
+    basePrefix: "flame-"
+    }
     size : 1
     
     requirements : [
@@ -38,7 +43,7 @@
                 intervalSpread: 200
                 intervalBullet: {
                     type: MissileBulletType
-                    lifetime : 10
+                    lifetime : 6.2
                     damage : 4
                     height : 7
                     speed : 4

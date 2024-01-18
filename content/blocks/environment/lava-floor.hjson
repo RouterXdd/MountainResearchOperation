@@ -5,7 +5,7 @@
     isLiquid: true
     variants: 0
     drownTime: 160
-    caсheLayer: tar
+    cacheLayer: tar
     supportsOverlay: true
     speedMultiplier: 0.2
     albedo: 0.7

@@ -15,6 +15,11 @@ targetGround : true
     type : ItemTurret
     name : Spill
     size : 2
+    outlineColor: 2b1311
+    drawer: {
+    type: DrawTurret
+    basePrefix: "flame-"
+    }
     
     requirements : [
         basalt-stone/80
@@ -31,13 +36,13 @@ targetGround : true
             height : 13
             speed : 3
             width : 9
-                bulletInterval: 4
+                bulletInterval: 7.5
                 intervalRandomSpread: 360
                 intervalBullets: 3
                 intervalAngle: 360
                 intervalSpread: 360
                 intervalBullet: {
-                    lifetime : 30
+                    lifetime : 8.5
             damage : 8
             height : 6
             speed : 3

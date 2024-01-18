@@ -2,10 +2,11 @@
     liquidDrop: mro-lava
     status: melting
     statusDuration: 130
-    isLiquid: false
-    variants: 0
+    isLiquid: true
+    shallow: true
+    variants: 3
     drownTime: 00
-    caсheLayer: tar
+    cacheLayer: tar
     supportsOverlay: true
     speedMultiplier: 0.2
     albedo: 0.7

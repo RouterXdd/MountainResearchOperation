@@ -15,7 +15,7 @@
     armor : 100
     type : flying
     drag : 0.04
-    
+    outlineColor: 2b1311
     
     research : {
     }
